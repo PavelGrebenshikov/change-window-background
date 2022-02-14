@@ -43,4 +43,4 @@ class ChangeBackground():
         if self.path:
             ctypes.windll.user32.SystemParametersInfoW(self.SPI_SETDESKWALLPAPER, 0, r"{0}".format(self.path), 0)
         else:
-            raise ValueError("Введите путь до изображение/изображений")
+            raise ValueError("Введите путь до изображения/изображений")
